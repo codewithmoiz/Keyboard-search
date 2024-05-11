@@ -5,7 +5,7 @@ letters.split("").forEach((letter) => {
 document.querySelector('.btn-wrapper').innerHTML += `<button><i class="ri-delete-back-2-fill"></i></button>`;
 
 function playSound() {
-    var keySound = new Audio('/Key-Press-Sound.mp3');
+    var keySound = new Audio('./Sound/Key-Press-Sound.MP3');
     keySound.play();
 }
 
